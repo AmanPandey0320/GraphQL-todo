@@ -1,0 +1,29 @@
+{
+  "name": "graphql-todo",
+  "version": "1.0.0",
+  "description": "Todo app made with graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index,js"
+  },
+  "keywords": [
+    "Graphql",
+    "todo"
+  ],
+  "author": "Aman Kr Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
